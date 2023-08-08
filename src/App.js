@@ -1,17 +1,17 @@
 import {potencia, Greetings} from 'poc-lib-shared-pow';
-/* import {Greetings}from 'poc-lib-shared-pow'; */
 
 function App() {
 
-  let resultado = potencia(5, 4);
+  let resultado = potencia(5, 3);
   return (
     <div className="App">
 
-     <Greetings />
+    {/*  <Greetings /> */}
      <h2>{resultado}</h2>
       
     </div>
+    
   );
-}
+}console.log("hola");
 
 export default App;
