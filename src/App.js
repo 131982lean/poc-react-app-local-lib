@@ -1,10 +1,8 @@
 import {potencia, Greetings} from 'poc-lib-shared-pow';
-import { Mantine } from '@mantine/core';
 
 function App() {
 
-  let resultado = potencia(2, 4);
-  console.log(Greetings);
+  let resultado = potencia(3, 4);
   return (
     <div className="App">
 
